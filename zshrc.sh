@@ -29,3 +29,8 @@ alias opne='open'
 
 # untar a file
 alias untar='tar -zxvf'
+
+# For pyenv to work properly
+# (i.e. `python` uses the version managed by pyenv instead of the system one)
+eval "$(pyenv init --path)"
+eval "$(pyenv init --path)"
