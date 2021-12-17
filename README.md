@@ -1,6 +1,7 @@
 Setup
 -----
 
+1. Checkout this repo somewhere like `~/zsh`
 1. Install [Oh My Zsh!](https://ohmyz.sh/)
 1. Install [Powerlevel10k](https://github.com/romkatv/powerlevel10k) theme
 1. Run `p10k configure`
@@ -13,7 +14,8 @@ Setup
 1. Install [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting) plugin
 1. Install [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions) plugin
 1. Install [lsd](https://github.com/Peltoche/lsd)
-1. Checkout this repo somewhere like `~/zsh`
+1. Install java versions (and update the switching commands in [zshrc.sh](zshrc.sh) as necessary)
+1. Install pyenv to manage python
 1. Add the following to the end of `~/.zshrc`:
    ```
    # Load my stuff
@@ -29,8 +31,3 @@ plugins=(
     zsh-autosuggestions
 )
 ```
-
-Other Notes
------------
-- Install java versions (and update the switching commands in [zshrc.sh](zshrc.sh) as necessary)
-- Install pyenv to manage python
