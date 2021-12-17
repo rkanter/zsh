@@ -32,5 +32,5 @@ plugins=(
 
 Other Notes
 -----------
-- Install java versions (and update the switching commands in [zsh.sh](zsh.sh) as necessary)
+- Install java versions (and update the switching commands in [zshrc.sh](zshrc.sh) as necessary)
 - Install pyenv to manage python
