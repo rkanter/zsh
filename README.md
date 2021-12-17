@@ -12,6 +12,7 @@ Setup
    ```
 1. Install [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting) plugin
 1. Install [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions) plugin
+1. Install [lsd](https://github.com/Peltoche/lsd)
 1. Checkout this repo somewhere like `~/zsh`
 1. Add the following to the end of `~/.zshrc`:
    ```
@@ -28,3 +29,8 @@ plugins=(
     zsh-autosuggestions
 )
 ```
+
+Other Notes
+-----------
+- Install java versions (and update the switching commands in [zsh.sh](zsh.sh) as necessary)
+- Install pyenv to manage python
