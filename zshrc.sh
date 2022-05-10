@@ -5,7 +5,7 @@ export _JAVA_OPTIONS=-Djava.awt.headless=true
 
 
 # Determine where Java is and set env var
-export JAVA_HOME=$(/usr/libexec/java_home -v 1.8)
+export JAVA_HOME=$(/usr/libexec/java_home -v 11)
 
 # Switch between Java versions
 # /usr/libexec/java_home -v X will always point to the latest X version
