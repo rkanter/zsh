@@ -29,5 +29,6 @@ plugins=(
     git
     zsh-syntax-highlighting
     zsh-autosuggestions
+    kubectl
 )
 ```
