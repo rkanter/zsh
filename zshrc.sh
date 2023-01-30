@@ -1,9 +1,3 @@
-# Fix for stupid Java bug that was causing all java processes to make a dock icon and steal focus
-# (the second answer)
-# http://stackoverflow.com/questions/10627405/how-to-set-java-system-properties-globally-on-os-x
-export _JAVA_OPTIONS=-Djava.awt.headless=true
-
-
 # Determine where Java is and set env var
 export JAVA_HOME=$(/usr/libexec/java_home -v 11)
 
