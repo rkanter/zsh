@@ -11,6 +11,10 @@ java11() {
     export JAVA_HOME=$(/usr/libexec/java_home -v 11 -F)
     java -version
 }
+java17() {
+    export JAVA_HOME=$(/usr/libexec/java_home -v 17 -F)
+    java -version
+}
 javaList() {
     /usr/libexec/java_home -V
 }
