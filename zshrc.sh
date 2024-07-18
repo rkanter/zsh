@@ -19,8 +19,8 @@ javaList() {
     /usr/libexec/java_home -V
 }
 
-# Give Maven more heap and permgen memory so it won't run out
-export MAVEN_OPTS="-Xmx2048m -XX:MaxPermSize=1024m"
+# Give Maven more heap memory
+export MAVEN_OPTS="-Xmx2048m"
 
 # I make this typo a lot
 alias opne='open'
