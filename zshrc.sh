@@ -34,3 +34,13 @@ alias ls='lsd'
 # For pyenv to work properly
 # (i.e. `python` uses the version managed by pyenv instead of the system one)
 eval "$(pyenv init --path)"
+
+# Runs a command until it fails or ctrl+c
+runUntilFailure() {
+    count=1;
+    echo "=======\nRUN $count\n======="
+    while "$@" && sleep 1; do
+        count=$((count+1))
+        echo "=======\nRUN $count\n======="
+    done
+}
