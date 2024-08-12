@@ -31,6 +31,9 @@ alias untar='tar -zxvf'
 # Use lsd instead of ls (`brew install lsd`)
 alias ls='lsd'
 
+# Make it easier to do kubectl
+alias k='kubectl'
+
 # For pyenv to work properly
 # (i.e. `python` uses the version managed by pyenv instead of the system one)
 eval "$(pyenv init --path)"
