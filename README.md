@@ -11,9 +11,10 @@ Setup
    # 12h time, angled separators, sharp heads, flat tails, 1 line, compact, many icons,
    # concise, instant_prompt=verbose.
    ```
-1. Install [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting) plugin
-1. Install [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions) plugin
-1. Install [lsd](https://github.com/Peltoche/lsd)
+1. Install [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md#oh-my-zsh) plugin
+1. Install [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md#oh-my-zsh) plugin
+1. Enable plugins (see [Plugins Reference](#plugins-reference))
+1. Install [lsd](https://github.com/Peltoche/lsd) (makes `ls` much prettier)
 1. Install java versions (and update the switching commands in [zshrc.sh](zshrc.sh) as necessary)
 1. Install pyenv to manage python
 1. Add the following to the end of `~/.zshrc`:
@@ -24,11 +25,12 @@ Setup
 
 Plugins Reference
 -----------------
+This is what the `plugins=` field should look like in `~/.zshrc`:
 ```
 plugins=(
     git
-    zsh-syntax-highlighting
     zsh-autosuggestions
     kubectl
+    zsh-syntax-highlighting # This one has to go last
 )
 ```
