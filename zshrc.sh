@@ -1,5 +1,5 @@
 # Determine where Java is and set env var
-export JAVA_HOME=$(/usr/libexec/java_home -v 11)
+export JAVA_HOME=$(/usr/libexec/java_home -v 21)
 
 # Switch between Java versions
 # /usr/libexec/java_home -v X will always point to the latest X version
