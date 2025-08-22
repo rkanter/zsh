@@ -35,10 +35,6 @@ alias untar='tar -zxvf'
 # Use lsd instead of ls (`brew install lsd`)
 alias ls='lsd'
 
-# For pyenv to work properly
-# (i.e. `python` uses the version managed by pyenv instead of the system one)
-eval "$(pyenv init --path)"
-
 # Runs a command until it fails or ctrl+c
 runUntilFailure() {
     count=1;
