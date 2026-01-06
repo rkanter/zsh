@@ -3,6 +3,11 @@ export JAVA_HOME=$(/usr/libexec/java_home -v 21)
 
 # Switch between Java versions
 # /usr/libexec/java_home -v X will always point to the latest X version
+# Install with brew or other tools, e.g.:
+#   brew install --cask zulu@8
+#   brew install --cask temurin@11
+#   brew install --cask temurin@17
+#   brew install --cask temurin@21
 java8() {
     export JAVA_HOME=$(/usr/libexec/java_home -v 1.8 -F)
     java -version
