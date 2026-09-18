@@ -8,6 +8,7 @@ export JAVA_HOME=$(/usr/libexec/java_home -v 21)
 #   brew install --cask temurin@11
 #   brew install --cask temurin@17
 #   brew install --cask temurin@21
+#   brew install --cask temurin@25
 java8() {
     export JAVA_HOME=$(/usr/libexec/java_home -v 1.8 -F)
     java -version
@@ -22,6 +23,10 @@ java17() {
 }
 java21() {
     export JAVA_HOME=$(/usr/libexec/java_home -v 21 -F)
+    java -version
+}
+java25() {
+    export JAVA_HOME=$(/usr/libexec/java_home -v 25 -F)
     java -version
 }
 javaList() {
